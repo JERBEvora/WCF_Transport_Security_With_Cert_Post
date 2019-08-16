@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Test", "Unit Test", "{1EEFCB1D-4650-43C5-9746-BF2516A8C304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{5AB06624-F238-43C2-852D-BE8788B78E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatedString", "RepeatedString\RepeatedString.csproj", "{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_TransportSecurity_W_CertificateAuth", "UnitTest_TransportSecurity_W_CertificateAuth\UnitTest_TransportSecurity_W_CertificateAuth.csproj", "{B02B9E85-42F5-45F4-8503-0D9E0ECEC233}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578} = {02E34B2A-C9EE-43AC-BE0E-66B8D3E30578}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02B9E85-42F5-45F4-8503-0D9E0ECEC233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02B9E85-42F5-45F4-8503-0D9E0ECEC233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02B9E85-42F5-45F4-8503-0D9E0ECEC233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02B9E85-42F5-45F4-8503-0D9E0ECEC233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02E34B2A-C9EE-43AC-BE0E-66B8D3E30578} = {5AB06624-F238-43C2-852D-BE8788B78E25}
+		{B02B9E85-42F5-45F4-8503-0D9E0ECEC233} = {1EEFCB1D-4650-43C5-9746-BF2516A8C304}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE00F820-F68A-4B39-9231-F8CF75136026}
+	EndGlobalSection
+EndGlobal
