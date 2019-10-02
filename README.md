@@ -1,4 +1,4 @@
-# WCF_Transport_Security_With_Cert_Post
+# WCF Transport Security With Certificate Authentication — Test Validation With MSTest V2
 Source code for my blog (www.jeevora.com) post about WCF Transport Security with Certificate Authentication Validation with Parameterized test (https://www.jeevora.com/2019/08/18/wcf-transport-security-with-certificate-authentication/)
 
 This post discusses the use of X.509 certificates for server and client authentication when using transport security especially to intranet communication.
